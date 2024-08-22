@@ -10,24 +10,20 @@ const Home = () => {
       <div className="pt-14 relative h-auto bg-[#040B11] w-auto">
         <div className="relative h-auto">
           <img
-            src="src\pages\Topbg.png"
+            src="/Topbg.png"
             alt="tt"
             className="w-full h-full object-cover"
           />
         </div>
 
         <div className="flex items-center justify-center transform -translate-y-1/4 pb-80">
+          <img src="/small1.png" alt="" className="w-32 h-32 -mt-12 -mr-2" />
           <img
-            src="src\pages\small1.png"
-            alt=""
-            className="w-32 h-32 -mt-12 -mr-2"
-          />
-          <img
-            src="src\pages\centerimage.png"
+            src="/Centerimage.png"
             alt="centerimage"
             className="w-1/4 h-auto bg-[#040B11]"
           />
-          <img src="src\pages\small2.png" alt="" className="w-28 h-28 -mt-36" />
+          <img src="/small2.png" alt="" className="w-28 h-28 -mt-36" />
           <img
             src="./public/himg.png"
             alt=""
@@ -63,7 +59,7 @@ const Home = () => {
             <div className="w-24 h-24 mr-4">
               <a href="./Volunteers">
                 <img
-                  src=".\public\Icon1.png"
+                  src="/Icon1.png"
                   alt="icon1"
                   className="w-full h-full object-contain"
                 />
@@ -72,7 +68,7 @@ const Home = () => {
             <div className="w-24 h-24 mr-4">
               <a href="/">
                 <img
-                  src="src\pages\Icon2.png"
+                  src="/Icon2.png"
                   alt="icon2"
                   className="w-full h-full object-contain"
                 />
@@ -81,7 +77,7 @@ const Home = () => {
             <div className="w-24 h-24">
               <a href="./RealEstate">
                 <img
-                  src=".\public\Icon3.png"
+                  src="/Icon3.png"
                   alt="icon3"
                   className="w-full h-full object-contain"
                 />
@@ -123,12 +119,12 @@ const Home = () => {
 
         <div
           className="absolute top-[calc(72%+4rem)] left-0 w-5/6 h-5/6 bg-no-repeat bg-contain"
-          style={{ backgroundImage: "url('src/pages/bg2.png')" }}
+          style={{ backgroundImage: "url('/bg2.png')" }}
         ></div>
 
         <div
           className="absolute top-[calc(100%+4rem)] w-[30%] h-3/4 bg-no-repeat bg-contain mr-0 right-0"
-          style={{ backgroundImage: "url('src/pages/bg1.png')" }}
+          style={{ backgroundImage: "url('/bg1.png')" }}
         ></div>
 
         <div className="absolute pt-20 left-48">
@@ -160,10 +156,10 @@ const Home = () => {
         <div className="absolute pt-20 left-3/7 right-24">
           <div className="grid grid-cols-2 gap-3 pl-44">
             <div className="w-[26rem] h-[26rem] pt-20 pl-10">
-              <img src="src\pages\1.png" alt="" className="pt-4" />
-              <img src="src\pages\BG.png" alt="" className="-mt-24 ml-2" />
+              <img src="/1.png" alt="" className="pt-4" />
+              <img src="/BG.png" alt="" className="-mt-24 ml-2" />
               <img
-                src="src\pages\Vector 3.png"
+                src="/Vector 3.png"
                 alt=""
                 className="-mt-24 ml-[16.5rem]"
               />
@@ -171,7 +167,7 @@ const Home = () => {
               <div className="absolute inset-0 flex flex-col text-left mt-52 ml-64">
                 <h2 className="text-white text-3xl flex ">
                   <PiLineVerticalBold className="text-blue-400" /> Crime
-                  <img src="src\pages\Sheild1.png" alt="" className="pl-28" />
+                  <img src="/Sheild1.png" alt="" className="pl-28" />
                 </h2>
                 <h2 className="text-white text-3xl pb-4 pl-8 -mt-4">
                   Reporting
@@ -200,12 +196,12 @@ const Home = () => {
                 <PiLineVerticalBold className="text-yellow-400 size-10 -mt-1" />
                 Hit-spot Alerts:{" "}
                 <img
-                  src="src\pages\Ellipse 1024.png"
+                  src="/Ellipse 1024.png"
                   alt=""
                   className="relative w-12 h-12"
                 />
                 <img
-                  src="src\pages\World Markets.png"
+                  src="/World Markets.png"
                   alt=""
                   className="w-12 h-12 absolute inset-0 bg-no-repeat bg-cover ml-72 mt-8"
                 />
@@ -225,12 +221,12 @@ const Home = () => {
                   <PiLineVerticalBold className="text-violet-800 size-14 -mt-4" />
                   Safe Route Planner
                   <img
-                    src="src\pages\Ellipse 1024.png"
+                    src="/Ellipse 1024.png"
                     alt=""
                     className="relative w-12 h-12"
                   />{" "}
                   <img
-                    src="src\pages\Leaf.png"
+                    src="/Leaf.png"
                     alt=""
                     className="w-12 h-12 absolute inset-0 bg-no-repeat bg-cover ml-72 mt-8"
                   />
@@ -248,12 +244,12 @@ const Home = () => {
                   <PiLineVerticalBold className="text-green-500 -mt-1" />
                   Community Insights:{" "}
                   <img
-                    src="src\pages\Ellipse 1024.png"
+                    src="/Ellipse 1024.png"
                     alt=""
                     className="relative w-12 h-12"
                   />{" "}
                   <img
-                    src="src\pages\Donation.png"
+                    src="/Donation.png"
                     alt=""
                     className="w-10 h-10 absolute inset-0 bg-no-repeat bg-cover ml-72 mt-8"
                   />

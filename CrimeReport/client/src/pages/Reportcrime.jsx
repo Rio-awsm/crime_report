@@ -40,7 +40,7 @@ const Reportcrime = () => {
       <div className="pt-4 relative h-auto bg-[#040B11] w-auto">
         <div className="relative h-auto">
           <img
-            src="src\pages\Reportcrimebg.png"
+            src="/Reportcrimebg.png"
             alt="tt"
             className="w-full h-full object-cover"
           />
